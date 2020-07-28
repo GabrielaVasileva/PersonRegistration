@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="072966bb-df09-4b77-a4fb-128ad8209f46" name="Default Changelist" comment="" />
+    <list default="true" id="072966bb-df09-4b77-a4fb-128ad8209f46" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../WebSpringPerson/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpringPerson/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebSpringPerson/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpringPerson/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebSpringPerson/WebSpringPerson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpringPerson/WebSpringPerson.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebSpringPerson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpringPerson/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1erMK2bErUWhYNCQxfTwtnbGYXO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -171,6 +181,7 @@
       <workItem from="1595755762991" duration="3202000" />
       <workItem from="1595941568391" duration="1230000" />
       <workItem from="1595947078739" duration="170000" />
+      <workItem from="1595960287196" duration="382000" />
     </task>
     <servers />
   </component>
