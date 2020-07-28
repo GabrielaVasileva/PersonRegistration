@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="072966bb-df09-4b77-a4fb-128ad8209f46" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1erMK2bErUWhYNCQxfTwtnbGYXO" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\gabi\Spring\001_demo\003B_sprig\src\main\resources" />
+      <recent name="E:\gabi\Spring\001_demo\003B_sprig\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="database.databasedemo.jdbc" />
+      <recent name="database.databasedemo" />
+      <recent name="database.databasedemo.springdata" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gabi\Spring\001_demo\002_sprig\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SpringJdbcDemoApplication">
+    <configuration name="SpringDataDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="database.databasedemo.SpringDataDemoApplication" />
+      <module name="SpringBootPersonBackend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.databasedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJdbcDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="database.databasedemo.SpringJdbcDemoApplication" />
+      <module name="SpringBootPersonBackend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.databasedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mysql.mysql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/mysql/mysql.mysql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="4aa31654-8be7-484b-ae75-a775d0e196ba" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SpringBootPersonBackend" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SpringBootPersonBackend" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="001_sprig" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.databasedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="database.databasedemo.SpringDataDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringJdbcDemoApplication" />
+        <item itemvalue="Application.SpringDataDemoApplication" />
+        <item itemvalue="Database Script.mysql.mysql" />
+        <item itemvalue="Spring Boot.SpringDataDemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="072966bb-df09-4b77-a4fb-128ad8209f46" name="Default Changelist" comment="" />
+      <created>1595075190606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595075190606</updated>
+      <workItem from="1595075194192" duration="865000" />
+      <workItem from="1595076178362" duration="514000" />
+      <workItem from="1595076740890" duration="1887000" />
+      <workItem from="1595079114027" duration="3311000" />
+      <workItem from="1595094037512" duration="198000" />
+      <workItem from="1595245577087" duration="644000" />
+      <workItem from="1595574384962" duration="1553000" />
+      <workItem from="1595755762991" duration="3202000" />
+      <workItem from="1595941568391" duration="1230000" />
+      <workItem from="1595947078739" duration="170000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="606" y="138" key="#SpringDataDemoApplication" timestamp="1595079138786">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="606" y="138" key="#SpringDataDemoApplication/0.46.1920.1034@0.46.1920.1034" timestamp="1595079138786" />
+    <state x="606" y="142" key="#SpringJdbcDemoApplication" timestamp="1595079172899">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="606" y="142" key="#SpringJdbcDemoApplication/0.46.1920.1034@0.46.1920.1034" timestamp="1595079172899" />
+    <state x="552" y="212" width="1131" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595942156855">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="552" y="212" width="1131" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.46.1920.1034@0.46.1920.1034" timestamp="1595942156855" />
+    <state x="721" y="195" key="#com.intellij.ide.util.MemberChooser" timestamp="1595079834964">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="721" y="195" key="#com.intellij.ide.util.MemberChooser/0.46.1920.1034@0.46.1920.1034" timestamp="1595079834964" />
+    <state x="595" y="116" key="#mysql.mysql" timestamp="1595942470291">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="595" y="116" key="#mysql.mysql/0.46.1920.1034@0.46.1920.1034" timestamp="1595942470291" />
+    <state x="690" y="187" key="FileChooserDialogImpl" timestamp="1595947247494">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="690" y="187" key="FileChooserDialogImpl/0.46.1920.1034@0.46.1920.1034" timestamp="1595947247494" />
+    <state width="1865" height="453" key="GridCell.Tab.0.bottom" timestamp="1595947250798">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="1865" height="453" key="GridCell.Tab.0.bottom/0.46.1920.1034@0.46.1920.1034" timestamp="1595947250798" />
+    <state width="1865" height="453" key="GridCell.Tab.0.center" timestamp="1595947250798">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="1865" height="453" key="GridCell.Tab.0.center/0.46.1920.1034@0.46.1920.1034" timestamp="1595947250798" />
+    <state width="1865" height="453" key="GridCell.Tab.0.left" timestamp="1595947250798">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="1865" height="453" key="GridCell.Tab.0.left/0.46.1920.1034@0.46.1920.1034" timestamp="1595947250798" />
+    <state width="1865" height="453" key="GridCell.Tab.0.right" timestamp="1595947250798">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="1865" height="453" key="GridCell.Tab.0.right/0.46.1920.1034@0.46.1920.1034" timestamp="1595947250798" />
+    <state width="1865" height="265" key="GridCell.Tab.1.bottom" timestamp="1595075629023">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="1865" height="265" key="GridCell.Tab.1.bottom/0.46.1920.1034@0.46.1920.1034" timestamp="1595075629023" />
+    <state width="1865" height="265" key="GridCell.Tab.1.center" timestamp="1595075629023">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="1865" height="265" key="GridCell.Tab.1.center/0.46.1920.1034@0.46.1920.1034" timestamp="1595075629023" />
+    <state width="1865" height="265" key="GridCell.Tab.1.left" timestamp="1595075629023">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="1865" height="265" key="GridCell.Tab.1.left/0.46.1920.1034@0.46.1920.1034" timestamp="1595075629023" />
+    <state width="1865" height="265" key="GridCell.Tab.1.right" timestamp="1595075629023">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="1865" height="265" key="GridCell.Tab.1.right/0.46.1920.1034@0.46.1920.1034" timestamp="1595075629023" />
+    <state width="274" height="594" key="HiddenNamespacesPopup" timestamp="1595942481564">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state width="274" height="594" key="HiddenNamespacesPopup/0.46.1920.1034@0.46.1920.1034" timestamp="1595942481564" />
+    <state x="539" y="188" key="NewModule_or_Project.wizard" timestamp="1595947248928">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="539" y="188" key="NewModule_or_Project.wizard/0.46.1920.1034@0.46.1920.1034" timestamp="1595947248928" />
+    <state x="312" y="46" key="SettingsEditor" timestamp="1595942804072">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="312" y="46" key="SettingsEditor/0.46.1920.1034@0.46.1920.1034" timestamp="1595942804072" />
+    <state x="807" y="411" width="408" height="314" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1595942327911">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="807" y="411" width="408" height="314" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.46.1920.1034@0.46.1920.1034" timestamp="1595942327911" />
+    <state x="783" y="411" width="376" height="310" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1595082112178">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="783" y="411" width="376" height="310" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/0.46.1920.1034@0.46.1920.1034" timestamp="1595082112178" />
+    <state x="1119" y="116" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1595076518735">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="1119" y="116" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.46.1920.1034@0.46.1920.1034" timestamp="1595076518735" />
+    <state x="93" y="146" width="1734" height="841" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595080797726">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="93" y="146" width="1734" height="841" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.46.1920.1034@0.46.1920.1034" timestamp="1595080797726" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1595094044234">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.46.1920.1034@0.46.1920.1034" timestamp="1595094044234" />
+    <state x="532" y="258" key="run.anything.popup" timestamp="1595076316531">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="532" y="258" key="run.anything.popup/0.46.1920.1034@0.46.1920.1034" timestamp="1595076316531" />
+  </component>
+</project>
