@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:pt="http://xmlns.jcp.org/jsf/passthrough" xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Person Register</title>
+    <h:outputStylesheet library="app-lib" name="/css/bootstrap-4.2.1.min.css"/>
+    <h:outputStylesheet library="app-lib" name="/css/style.css"/>
+    <h:outputScript library="app-lib" name="/js/jquery-3.3.1.min.js"/>
+    <h:outputScript library="app-lib" name="/js/bootstrap.bundle-4.2.1.min.js"/>
+</h:head>
+<h:body>
+    <div class="container mt-3">
+        <hr class="bg-dark height-2"/>
+        <h1 class="text-center">Person Register</h1>
+        <hr class="bg-dark height-2"/>
+
+        <table class="table">
+            <thead>
+            <tr class="row">
+                <th scope="col" class="col-md-1">#</th>
+                <th scope="col" class="col-md-2">First Name</th>
+                <th scope="col" class="col-md-2">Last Name</th>
+                <th scope="col" class="col-md-3">Email</th>
+                <th scope="col" class="col-md-1">Birth Date</th>
+                <th scope="col" class="col-md-2">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <p:repeat value="#{personListBean.people}" var="person" varStatus="status">
+                <tr class="row">
+                    <th scope="row" class="col-md-1">#{status.index + 1}</th>
+                    <td class="col-md-2">#{person.firstName}</td>
+                    <td class="col-md-2">#{person.lastName}</td>
+                    <td class="col-md-3">#{person.email}</td>
+                    <td class="col-md-1">#{person.birthDate}</td>
+                    <td class="col-md-2">
+                        <p:commandButton styleClass="btn btn-danger" value="Remove" immediate="true"
+                                         action="#{personRemoveBean.remove(person.id)}"/>
+                    </td>
+                </tr>
+            </p:repeat>
+            </tbody>
+        </table>
+        <hr class="bg-dark height-2"/>
+        <h:form class="form">
+            <div class="names-holder d-flex justify-content-between">
+                <div class="form-group w-25">
+                    <h:outputLabel for="firstName" value="First Name"/>
+                    <p:inputText value="#{personRegisterBean.bindingModel.firstName}" styleClass="form-control"
+                                 id="firstName" placeholder="First Name..." pt:required="true"/>
+                </div>
+                <div class="form-group w-25">
+                    <h:outputLabel for="lastName" value="Last Name"/>
+                    <p:inputText value="#{personRegisterBean.bindingModel.lastName}" styleClass="form-control"
+                                 id="lastName" placeholder="Last Name..." pt:required="true"/>
+                </div>
+                <div class="form-group w-25">
+                    <h:outputLabel for="email" value="Email"/>
+                    <p:inputText value="#{personRegisterBean.bindingModel.email}" styleClass="form-control"
+                                 id="email" placeholder="Email..." pt:required="true"/>
+                </div>
+            </div>
+            <div class="numbers-holders d-flex justify-content-between">
+                
+                <div class="form-submit-holder d-flex justify-content-center w-25">
+                    <h:commandButton action="#{personRegisterBean.register}"
+                                     styleClass="btn btn-success mt-4 mb-3 mx-auto w-100 m-t-2rem" value="Register"/>
+                </div>
+                <div class="form-group w-25">
+                    <h:outputLabel for="birthDate" value="Birth Date"/>
+                    <p:inputText value="#{personRegisterBean.bindingModel.birthDate}" pt:type="date"
+                                 styleClass="form-control" id="birthDate" placeholder="Birth Date..."
+                                 pt:required="true" converter="dateTimeConverter"/>
+
+                </div>
+            </div>
+        </h:form>
+    </div>
+</h:body>
+</html>

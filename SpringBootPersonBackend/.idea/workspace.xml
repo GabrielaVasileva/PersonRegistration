@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="072966bb-df09-4b77-a4fb-128ad8209f46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../WebSpringPerson/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpringPerson/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebSpringPerson/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpringPerson/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebSpringPerson/WebSpringPerson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpringPerson/WebSpringPerson.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebSpringPerson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpringPerson/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,53 +89,6 @@
       <data-source id="4aa31654-8be7-484b-ae75-a775d0e196ba" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SpringBootPersonBackend" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SpringBootPersonBackend" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringDataDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="001_sprig" />
       <extension name="coverage">
@@ -181,7 +131,8 @@
       <workItem from="1595755762991" duration="3202000" />
       <workItem from="1595941568391" duration="1230000" />
       <workItem from="1595947078739" duration="170000" />
-      <workItem from="1595960287196" duration="382000" />
+      <workItem from="1595960287196" duration="1093000" />
+      <workItem from="1596008244946" duration="693000" />
     </task>
     <servers />
   </component>
@@ -209,10 +160,10 @@
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
     <state x="595" y="116" key="#mysql.mysql/0.46.1920.1034@0.46.1920.1034" timestamp="1595942470291" />
-    <state x="690" y="187" key="FileChooserDialogImpl" timestamp="1595947247494">
+    <state x="690" y="187" key="FileChooserDialogImpl" timestamp="1596011138960">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state x="690" y="187" key="FileChooserDialogImpl/0.46.1920.1034@0.46.1920.1034" timestamp="1595947247494" />
+    <state x="690" y="187" key="FileChooserDialogImpl/0.46.1920.1034@0.46.1920.1034" timestamp="1596011138960" />
     <state width="1865" height="453" key="GridCell.Tab.0.bottom" timestamp="1595947250798">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
@@ -249,10 +200,10 @@
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
     <state width="274" height="594" key="HiddenNamespacesPopup/0.46.1920.1034@0.46.1920.1034" timestamp="1595942481564" />
-    <state x="539" y="188" key="NewModule_or_Project.wizard" timestamp="1595947248928">
+    <state x="539" y="188" key="NewModule_or_Project.wizard" timestamp="1596011142963">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state x="539" y="188" key="NewModule_or_Project.wizard/0.46.1920.1034@0.46.1920.1034" timestamp="1595947248928" />
+    <state x="539" y="188" key="NewModule_or_Project.wizard/0.46.1920.1034@0.46.1920.1034" timestamp="1596011142963" />
     <state x="312" y="46" key="SettingsEditor" timestamp="1595942804072">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
