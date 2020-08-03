@@ -36,7 +36,7 @@ public class SpringDataDemoApplication implements CommandLineRunner {
 
 
         logger.info("Inserting -> {}",
-                repository.save(new Person("Para", "S", "para@gmail.com",new Date("15/05/1950"))));
+                repository.save(new Person("Lara", "S", "para@gmail.com",new Date("15/05/1950"))));
         logger.info("Inserting -> {}",
                 repository.save(new Person("Sarah", "E", "sarah@gmail.com",new Date("03/05/1975"))));
 

@@ -15,10 +15,17 @@ import java.util.List;
 @Repository
 public class PersonJbdcDao {
 
+/**
+ * Once annotation injection is enabled, autowiring can be used
+ * on properties, setters, and constructors*/
 	@Autowired
 	JdbcTemplate jdbcTemplate;
-	
+
+
 	class PersonRowMapper implements RowMapper<Person>{
+		/**
+		 *Mapping rows of a ResultSet on a per-row basis.
+		 * */
 		@Override
 		public Person mapRow(ResultSet rs, int rowNum) throws SQLException {
 			Person person = new Person();

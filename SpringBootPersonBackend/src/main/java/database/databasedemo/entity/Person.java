@@ -8,23 +8,40 @@ import java.util.Objects;
 import javax.persistence.*;
 
 @Entity
+
+/**
+ * @NamedQuery annotation to create named queries with the JPA query language
+*/
 @NamedQuery(name="find_all_persons", query="select p from Person p")
 public class Person {
 
 	@Id
+	/**
+	 * @GeneratedValue(strategy=GenerationType.AUTO)
+	 * is default generation strategy for id.
+	 * */
 	@GeneratedValue
-
 	private int id;
 
 	private String firstName;
 	private String lastName;
 	private String email;
 	@Temporal(TemporalType.DATE)
+	/**
+	 * @DateTimeFormat formatting pattern parameter for date.
+	 * */
 	@DateTimeFormat(pattern = "dd/mm/yyyy")
 	private Date birthDate;
 
+	/**
+	 * It is obligatory to have an empty constructor because
+	 * internally to create instances of entity hibernate uses
+	 * newInstance() method this method works only with default
+	 * constructor only.
+	 * */
 	public Person() {
 	}
+
 
 	public Person(int id, String firstName, String lastName,String email, Date birthDate) {
 		this(firstName,lastName,email,birthDate);

@@ -16,9 +16,6 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="001_sprig" options="-parameters" />
-      <module name="002_sprig" options="-parameters" />
-      <module name="003_sprig" options="-parameters" />
       <module name="SpringBootPersonBackend" options="-parameters" />
     </option>
   </component>

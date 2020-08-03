@@ -12,3 +12,5 @@ create table person
     birth_date datetime(6)  null
 
 );
+
+

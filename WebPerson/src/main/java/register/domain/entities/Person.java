@@ -15,7 +15,10 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 @Entity
-@Table(name = "people") // the table mapping
+/**
+ * The table mapping
+ * */
+@Table(name = "people")
 public class Person extends BaseEntity {
 
     @NotNull

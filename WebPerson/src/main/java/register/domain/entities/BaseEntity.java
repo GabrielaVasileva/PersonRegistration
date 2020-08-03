@@ -13,11 +13,17 @@ import javax.persistence.MappedSuperclass;
 @Getter
 @Setter
 @NoArgsConstructor
-@MappedSuperclass // fields go in the table of extending class
+/**
+ * Fields go in the table of extending class.
+ * */
+@MappedSuperclass
 class BaseEntity implements Identifiable<String> {
 
     @Id
-    @GeneratedValue(generator = "uuid-string")// unique string key generated value
+    /**
+     * @GeneratedValue unique string key generated value
+     * */
+    @GeneratedValue(generator = "uuid-string")
     @GenericGenerator(name = "uuid-string", strategy = "org.hibernate.id.UUIDGenerator")
     @Column(name = "id", unique = true, nullable = false, updatable = false, length = 36)
     private String id;

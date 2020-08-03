@@ -18,7 +18,12 @@ abstract class BaseCrudRepository<E extends Identifiable<I>, I> implements CrudR
 
     private final Class<E> entityClass;
 
-    @PersistenceContext(unitName = "personRegister") //using annotation we create persistence context and entity manager
+    /**
+     * using annotation we create persistence context and entity manager
+     * The Persistence Context is defined in WebPerson/src/main/webapp/META-INF/persistence.xml
+     * The connection to the database is defined in WebPerson/src/main/webapp/WEB-INF/resources.xml
+     * */
+    @PersistenceContext(unitName = "personRegister") 
     protected EntityManager entityManager;
 
     protected BaseCrudRepository() {
