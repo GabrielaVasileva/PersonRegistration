@@ -23,9 +23,7 @@
         <maven.war.plugin.version>3.2.2</maven.war.plugin.version>
         <javaee.api.version>8.0</javaee.api.version>
         <mysql.connector.version>8.0.15</mysql.connector.version>
-        <hibernate.core.version> <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
-            5.4.1.Final
-        </hibernate.core.version>
+        <hibernate.core.version>5.4.24.Final</hibernate.core.version>
         <hibernate.jpa.version><!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.1-api -->
             1.0.2.Final</hibernate.jpa.version>
         <modelmapper.version> <!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
